@@ -187,6 +187,8 @@ footer .todo{background:var(--chip);color:var(--chip-ink)}
     <button class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="menu">Menu</button>
     <nav id="menu-wrap"><ul id="menu">
       <li><a href="#trabalho">Nosso trabalho</a></li>
+      <li><a href="#historia">História</a></li>
+      <li><a href="album.html">Álbum</a></li>
       <li><a href="#loja">Lojinha</a></li>
       <li><a href="#parceiros">Empresas</a></li>
       <li><a href="#participe">Participe</a></li>
@@ -252,6 +254,38 @@ footer .todo{background:var(--chip);color:var(--chip-ink)}
     </div>
 </section>
 
+<section class="block" id="historia" style="background:var(--surface);border-block:1px solid var(--line)">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow">Nossa história</p>
+      <h2>De um grupo de WhatsApp a uma rede de brigadas</h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:28px">
+      <div style="display:grid;gap:8px;align-content:start;min-width:0">
+        <strong style="font-family:var(--f-display);font-size:2.4rem;line-height:1;color:var(--fire-text)">2016</strong>
+        <p>Em 14 de agosto de 2016 nasce um grupo de WhatsApp para avisar vizinhos e a comunidade sobre os focos de incêndio que todo ano chegavam perto das casas.</p>
+      </div>
+      <div style="display:grid;gap:8px;align-content:start;min-width:0">
+        <strong style="font-family:var(--f-display);font-size:2.4rem;line-height:1;color:var(--fire-text)">2017</strong>
+        <p>Logo depois da ampliação do Parque Nacional da Chapada dos Veadeiros, a região enfrenta incêndios numa escala nunca vista. Em Alto Paraíso, São Jorge e Cavalcante, a comunidade se une para combater o fogo, muitas vezes sem equipamento nenhum.</p>
+      </div>
+      <div style="display:grid;gap:8px;align-content:start;min-width:0">
+        <strong style="font-family:var(--f-display);font-size:2.4rem;line-height:1;color:var(--fire-text)">Hoje</strong>
+        <p>A Rede forma brigadistas voluntários, organiza brigadas regionais, abre aceiros, leva educação ambiental às escolas e faz parte da Rede Nacional de Brigadas Voluntárias (RNBV).</p>
+      </div>
+    </div>
+    <div style="margin-top:44px;display:grid;gap:14px">
+      <p class="eyebrow">Quem já apoiou a Rede</p>
+      <ul style="list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px">
+        <li style="border:1px solid var(--line);border-radius:6px;padding:14px;background:var(--bg)"><strong>Fundo Casa Socioambiental</strong><br><span style="color:var(--muted)">2019, 2020, 2021, 2023 e 2024</span></li>
+        <li style="border:1px solid var(--line);border-radius:6px;padding:14px;background:var(--bg)"><strong>Rapid Response Facility (UNESCO)</strong><br><span style="color:var(--muted)">2020</span></li>
+        <li style="border:1px solid var(--line);border-radius:6px;padding:14px;background:var(--bg)"><strong>WWF</strong><br><span style="color:var(--muted)">2022, 2023 e 2025</span></li>
+        <li style="border:1px solid var(--line);border-radius:6px;padding:14px;background:var(--bg)"><strong>FUNBIO</strong><br><span style="color:var(--muted)">2025</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
 <section class="block support" id="apoie">
   <div class="wrap">
     <div class="head">
@@ -299,7 +333,13 @@ footer .todo{background:var(--chip);color:var(--chip-ink)}
       <h2>Compre e apoie</h2>
       <p>Tudo o que entra na lojinha volta pra brigada e pras ações de educação ambiental.</p>
     </div>
-    <p style="font-size:1.1rem">A lojinha da Rede abre em breve, com o álbum de figurinhas do Cerrado e um guia de prevenção para propriedades. Enquanto isso, a melhor forma de apoiar é a <a href="https://www.catarse.com.br/redecontrafogo/plans" target="_blank" rel="noopener" style="color:var(--fire-text);font-weight:700">assinatura no Catarse</a>.</p>
+    <a href="album.html" style="display:grid;grid-template-columns:minmax(0,1fr);gap:10px;text-decoration:none;color:inherit;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:22px;max-width:640px">
+      <span class="eyebrow">Novidade</span>
+      <strong style="font-family:var(--f-display);font-size:2.2rem;line-height:1;text-transform:uppercase">Álbum Cerrado que Rebrota</strong>
+      <span>Um álbum de figurinhas vivas: cada figurinha colada faz a Chapada queimada voltar a florescer. Jogue de graça no site.</span>
+      <span style="color:var(--fire-text);font-weight:700">Abrir o álbum →</span>
+    </a>
+    <p style="margin-top:18px">A versão impressa está em preparação. Enquanto isso, apoie a brigada pelo <a href="https://www.catarse.com.br/redecontrafogo/plans" target="_blank" rel="noopener" style="color:var(--fire-text);font-weight:700">Catarse</a>.</p>
   </div>
 </section>
 
@@ -325,13 +365,14 @@ footer .todo{background:var(--chip);color:var(--chip-ink)}
     <div>
       <p class="eyebrow">Participe</p>
       <h2 style="margin-top:12px">Venha pra brigada</h2>
-      <p style="margin-top:14px;color:var(--muted)">Tem lugar pra quem vai a campo e pra quem ajuda de longe. Conte pra gente como quer participar.</p>
+      <p style="margin-top:14px;color:var(--muted)">Tem lugar pra quem quer ajudar na educação ambiental, na comunicação, na logística e nos mutirões. Conte pra gente como quer participar.</p>
+      <p style="margin-top:10px;padding:10px 14px;border-left:3px solid var(--fire);background:var(--surface);font-size:.95rem">No momento não estamos abrindo vagas pra combate: a Rede acabou de formar 21 novos brigadistas, que estão em acompanhamento. Avisamos aqui quando abrir uma nova turma de formação.</p>
       <form id="vol-form" novalidate>
         <label for="f-nome">Nome<input id="f-nome" name="nome" required autocomplete="name"></label>
         <label for="f-contato">WhatsApp ou e-mail<input id="f-contato" name="contato" required></label>
         <label for="f-tipo">Como quer participar
           <select id="f-tipo" name="tipo">
-            <option>Brigada (campo)</option>
+            <option>Mutirões de aceiro</option>
             <option>Educação ambiental</option>
             <option>Comunicação</option>
             <option>Logística e transporte</option>
